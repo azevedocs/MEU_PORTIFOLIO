@@ -11,7 +11,7 @@ height: 77px;
 }
 main {
 margin: 0 auto;
-width: 1080px;
+width: 1360px;
 position: relative;
 }
 .logo { 
@@ -29,4 +29,31 @@ float: left;
 width: 18%;
 float: right;
 padding: 9px 0px;
+}
+.header-2 {
+background-color: #ffffff;
+width: 100%;
+height: 77px;
+border-bottom: 3px solid #1B7FB8;    
+}
+.menu ul li {
+display: inline-block;
+color: #252323;   
+margin-left: 15px;
+}
+.menu ul li a {
+color: #252323;
+text-decoration: none;
+font-size: 18px;
+text-transform: uppercase;   
+}
+.menu {
+width: 70%;
+float: left;
+padding: 15px 37px;
+}
+.busca {
+width: 15%;
+float: right;
+margin: 27px;
 }
