@@ -16,8 +16,8 @@ position: relative;
 }
 .logo { 
 float: left;        
-padding: 8px 25px;
-width: 77%
+padding: 8px 111px;
+width: 55%
 }
 .rede-sociais ul li{
 margin-left: 18px;
@@ -26,34 +26,49 @@ list-style: none;
 float: left;
 }
 .rede-sociais {
-width: 18%;
+width: 19%;
 float: right;
-padding: 9px 0px;
+padding: 9px 37px;
 }
 .header-2 {
 background-color: #ffffff;
 width: 100%;
-height: 77px;
-border-bottom: 3px solid #1B7FB8;    
+height: 77px;    
+}
+.menu-urls {
+border-top: 3px solid #1B7FB8;
+height: 80px;
 }
 .menu ul li {
 display: inline-block;
 color: #252323;   
-margin-left: 15px;
+margin-left: 40px;
+}
+.menu ul li a:hover {
+color: #1B7FB8;
 }
 .menu ul li a {
 color: #252323;
 text-decoration: none;
 font-size: 18px;
-text-transform: uppercase;   
+font-family: Trebuchet MS;  
 }
 .menu {
 width: 70%;
 float: left;
-padding: 15px 37px;
+padding: 11px 37px;
 }
 .busca {
-width: 15%;
+width: 19.8%;
 float: right;
-margin: 27px;
+margin: 21px;
+}
+.busca input {
+background-image: url('../img/buscar.png');
+background-repeat: no-repeat;
+background-position: 96%;
+width: 156px;
+padding: 7px;
+height: 15px;
+border: 0.5px solid #A5A5A5;   
 }
