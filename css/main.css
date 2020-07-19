@@ -79,3 +79,8 @@ outline: none;
 .busca input:hover {
 border-color: #1B7FB8;    
 }
+.col-100 {
+width: 100%;
+height: auto;
+float: left;
+}  
