@@ -16,16 +16,16 @@ position: relative;
 .logo { 
 float: left;        
 padding: 8px 111px;
-width: 55%
+width: 49%
 }
-.rede-sociais ul li{
+.rede-sociais ul li {
 margin-left: 33px;
 display: inline-block;
 list-style: none;
 float: left;
 }
 .rede-sociais {
-width: 23%;
+width: 24%;
 float: right;
 padding: 9px 37px;
 }
@@ -37,6 +37,7 @@ height: 77px;
 .menu-urls {
 border-top: 3px solid #1B7FB8;
 height: 80px;
+width: auto;
 }
 .menu ul li {
 display: inline-block;
@@ -59,7 +60,7 @@ color: #1B7FB8;
 .menu {
 width: 70%;
 float: left;
-padding: 11px 37px;
+padding: 11px 37px 0px;
 }
 .busca {
 width: 18.8%;
@@ -84,3 +85,48 @@ width: 100%;
 height: auto;
 float: left;
 }  
+button.slick-prev {
+font-size: 0px;
+border: none;
+width: 69px;
+height: 61px;
+z-index: 9;
+background-color: transparent;
+position: absolute;
+background-image: url('../img/setaanterior.png');
+top: 54%;
+left: 6%;
+}
+button.slick-next {
+font-size: 0px;
+border: none;
+width: 69px;
+height: 61px;
+z-index: 9;
+background-color: transparent;
+position: absolute;
+background-image: url('../img/setaproximo.png');
+top: 54%;
+right: 6%;
+}
+.slider-principal {
+width: 100%!important;
+}
+ul.slick-dots li button {
+display: inline-block;
+font-size: 0px;
+border: 3px solid #1B7FB8;
+border-radius: 50%;
+width: 20px;
+height: 20px;   
+}
+ul.slick-dots li.slick-active {
+background-color: #1B7FB8;
+}
+.slick-list {
+    width: 100%!important;
+}
+.slick-initialized {
+    overflow: hidden;
+    width: auto;
+}
