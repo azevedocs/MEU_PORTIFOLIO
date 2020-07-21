@@ -96,6 +96,7 @@ position: absolute;
 background-image: url('../img/setaanterior.png');
 top: 54%;
 left: 6%;
+outline: none;
 }
 button.slick-next {
 font-size: 0px;
@@ -108,25 +109,35 @@ position: absolute;
 background-image: url('../img/setaproximo.png');
 top: 54%;
 right: 6%;
-}
-.slider-principal {
-width: 100%!important;
-}
-ul.slick-dots li button {
-display: inline-block;
-font-size: 0px;
-border: 3px solid #1B7FB8;
-border-radius: 50%;
-width: 20px;
-height: 20px;   
-}
-ul.slick-dots li.slick-active {
-background-color: #1B7FB8;
+outline: none;
 }
 .slick-list {
-    width: 100%!important;
+width: 100%!important;
 }
 .slick-initialized {
-    overflow: hidden;
-    width: auto;
+overflow: hidden;
+}
+.slick-dots li button {
+font-size: 0px;
+border: 5px solid #ffffff;
+width: 26px;
+height: 26px;
+background: transparent;
+border-radius: 50%;
+cursor: pointer;
+outline: none;
+}
+.slick-dots {
+margin: 0 auto;
+width: 50%;
+position: absolute;
+left: 42.7%;
+top: 90%;
+}
+li.slick-active button {
+background: #1B7FB8;
+}
+.slick-dots li {
+display: inline-block;
+padding-left: 10px;
 }
